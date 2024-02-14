@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "tracing",
+    "tracing-core",
+    "tracing-attributes",
+    "tracing-error",
+    "tracing-flame",
+    "tracing-futures",
+    "tracing-tower",
+    "tracing-log",
+    "tracing-macros",
+    "tracing-mock",
+    "tracing-subscriber",
+    "tracing-serde",
+    "tracing-test",
+    "tracing-appender",
+    "tracing-journald",
+    "examples"
+]
